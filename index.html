@@ -13,17 +13,15 @@
 </head>
 
 <body>
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=1854782684803926";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <!-- <a id="logo-container" href="#" class="brand-logo">Classical Revolution New Jersey</a>
@@ -49,9 +47,7 @@
                     <img id="center-logo" src="./img/crheader.png" alt="Classical Revolution New Jersey" />
 
                 </div>
-                <div class="row center">
-                    <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Button</a>
-                </div>
+
                 <br><br>
 
             </div>
@@ -64,7 +60,8 @@
         <div class="section">
 
             <div class="row">
-                <form action="" id="email-form" class="col s12 contact">
+              <h4 class="center"> Contact Us</h4>
+                  <form action="" id="email-form" class="col s12 contact">
                     <div class="row">
                         <div class="input-field col s6">
                             <input id="name" type="text" class="validate">
@@ -87,58 +84,26 @@
                             <textarea id="message" class="materialize-textarea"></textarea>
                             <label for="message">Message*</label>
                         </div>
-                        <input id="saveForm" name="saveForm" type="submit" value="New Activity">
+                        <input class="btn waves-effect waves-light green darken-2 " id="saveForm" name="saveForm" type="submit" value="Submit">
                     </div>
             </div>
         </div>
         </form>
     </div>
 
-    <!--   Icon Section   -->
     <div class="row">
-        <div class="fb-page" data-href="https://www.facebook.com/classicalrevolutionnj/" data-tabs="timeline" data-width="500" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-            <blockquote cite="https://www.facebook.com/classicalrevolutionnj/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/classicalrevolutionnj/">Classical Revolution - New Jersey</a></blockquote>
-        </div>
-
-
-        <div class="col s12 m4">
-            <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-                <h5 class="center">Speeds up development</h5>
-
-                <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-            </div>
-        </div>
-
-        <div class="col s12 m4">
-            <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-                <h5 class="center">User Experience Focused</h5>
-
-                <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all
-                    platforms allow for a more unified user experience.</p>
-            </div>
-        </div>
-
-        <div class="col s12 m4">
-            <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-                <h5 class="center">Easy to work with</h5>
-
-                <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-            </div>
-        </div>
-    </div>
+      <div class="fb-page" data-href="https://www.facebook.com/classicalrevolutionnj" data-tabs="timeline" data-width="500" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/classicalrevolutionnj" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/classicalrevolutionnj">Classical Revolution - New Jersey</a></blockquote></div>
 
     </div>
-    </div>
+
+
 
 
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
-                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                    <h5 class="header col s12 light"></h5>
                 </div>
             </div>
         </div>
@@ -151,10 +116,14 @@
             <div class="row">
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h4>Contact Us</h4>
-                    <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien
-                        id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed
-                        ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                    <h4>About Classical Revolution - NJ </h4>
+                    <p class="left-align"><a href="http://www.classicalrevolution.org" target="_blank">Classical Revolution</a> is a global classical music movement founded by Charith Premawardhana in San Francisco, California in 2006, with its first session at San Francisco's Revolution Café. At Classical Revolution events, classical musicians and composers of all instruments are invited to join the core Classical Revolution players in performance, and are even encouraged bring music to read.</p>
+                    <p class="left-align">While attending the San Francisco Conservatory, violinist and educator James Keene was an active participant in the original San Francisco chapter of Classical Revolution, and in 2014, James founded the New Jersey chapter of Classical Revolution with a little strategic and technological help from polymath Nick West.</p>
+                    <p class="left-align">
+                      James organized the first Classical Revolution - NJ session at Pino's in Highland Park, NJ, and went on to bring the revolution to the legendary Ale &amp; Wich Tavern, the Court Tavern, and other cafés/pubs in New Jersey.
+                    </p>
+                    <p class="left-align">Classical Revolution - NJ is currently directed by violinist and educator Samantha Tomblin. If you are a musician who would like to take part in Classical Revolution, a proprietor who would like to invite the revolution to your establishment, if you are a composer who would like to have your work read at a Classical Revolution event, or if you are a fan, contact us using the contact form below, or email us at info(at)crnj.org.</p>
+                    <p class="left-align">Don't forget to also <a href="https://www.facebook.com/classicalrevolutionnj" target="_blank">Like Us on Facebook!</a></p>
                 </div>
             </div>
 
@@ -166,7 +135,6 @@
         <div class="section no-pad-bot">
             <div class="container">
                 <div class="row center">
-                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
                 </div>
             </div>
         </div>
@@ -174,37 +142,9 @@
     </div>
 
     <footer class="page-footer teal">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Company Bio</h5>
-                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-                </div>
-                <div class="col l3 s12">
-                    <h5 class="white-text">Settings</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-                <div class="col l3 s12">
-                    <h5 class="white-text">Connect</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="footer-copyright">
             <div class="container">
-                Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                Made by <a class="blue-text text-lighten-3" href="https://nickwe.st">Nick West</a>
             </div>
         </div>
     </footer>
