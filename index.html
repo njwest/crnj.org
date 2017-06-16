@@ -6,10 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <title>Parallax Template - Materialize</title>
 
-    <!-- CSS  -->
+    <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <style media="screen">
+      .rev-green{
+      background-color: #4f5748;
+      }
+
+      .nav-a{
+        color: #fff !important;
+      }
+
+      @media (min-width: 994px){
+        #center-logo{
+          padding-top: 50px;
+        }
+
+      }
+
+      @media (min-width: 701px) and (max-width: 993px){
+        #center-logo{
+          padding-top: 20px;
+        }
+      }
+
+      @media (max-width: 700px){
+        #center-logo{
+          max-width: 400px;
+          padding-top: 70px;
+        }
+
+      }
+    </style>
 </head>
 
 <body>
@@ -22,19 +53,18 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-    <nav class="white" role="navigation">
+    <nav class="rev-green" role="navigation">
         <div class="nav-wrapper container">
-            <!-- <a id="logo-container" href="#" class="brand-logo">Classical Revolution New Jersey</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul> -->
-
-
-
-            <!-- <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a class="nav-a" href="#about">About</a></li>
+        <li><a class="nav-a" href="#contact">Contact</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
+
+            <ul id="nav-mobile" class="side-nav rev-green">
+              <li><a class="nav-a" href="#about">About</a></li>
+        <li><a class="nav-a" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
     </nav>
 
@@ -52,12 +82,66 @@
 
             </div>
         </div>
-        <div class="parallax"><img src="./img/score.png" alt="Unsplashed background img 1"></div>
+        <div class="parallax" id="score"><img src="./img/score.png" alt="Classical Music Score"></div>
     </div>
 
 
     <div class="container">
         <div class="section">
+
+          <div class="row">
+            <div class="fb-page" data-href="https://www.facebook.com/classicalrevolutionnj" data-tabs="timeline" data-width="500" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/classicalrevolutionnj" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/classicalrevolutionnj">Classical Revolution - New Jersey</a></blockquote></div>
+
+          </div>
+        </div>
+        </form>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light"></h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="img/clarinet-quintet.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section" id="about">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4>About Classical Revolution - NJ </h4>
+                    <p class="left-align"><a href="http://www.classicalrevolution.org" target="_blank">Classical Revolution</a> is a global classical music movement founded by Charith Premawardhana in San Francisco, California in 2006, with its first session at San Francisco's Revolution Café. At Classical Revolution events, classical musicians and composers of all instruments are invited to join the core Classical Revolution players in performance, and are even encouraged bring music to read.</p>
+                    <p class="left-align">While attending the San Francisco Conservatory, violinist and educator James Keene was an active participant in the original San Francisco chapter of Classical Revolution, and in 2014, James founded the New Jersey chapter of Classical Revolution with a little strategic and technological help from polymath Nick West.</p>
+                    <p class="left-align">
+                      James organized the first Classical Revolution - NJ session at Pino's in Highland Park, NJ, and went on to bring the revolution to the legendary Ale &amp; Wich Tavern, the Court Tavern, and other cafés/pubs in New Jersey.
+                    </p>
+                    <p class="left-align">Classical Revolution - NJ is currently directed by violinist and educator Samantha Tomblin. If you are a musician who would like to take part in Classical Revolution, a proprietor who would like to invite the revolution to your establishment, if you are a composer who would like to have your work read at a Classical Revolution event, or if you are a fan, contact us using the contact form below, or email us at info(at)crnj.org.</p>
+                    <p class="left-align">Don't forget to also <a href="https://www.facebook.com/classicalrevolutionnj" target="_blank">Like Us on Facebook!</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="img/dave-in-darkness.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+
+    <div class="container">
+        <div class="section scrollspy" id="contact">
 
             <div class="row">
               <h4 class="center"> Contact Us</h4>
@@ -91,66 +175,13 @@
         </form>
     </div>
 
-    <div class="row">
-      <div class="fb-page" data-href="https://www.facebook.com/classicalrevolutionnj" data-tabs="timeline" data-width="500" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/classicalrevolutionnj" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/classicalrevolutionnj">Classical Revolution - New Jersey</a></blockquote></div>
-
-    </div>
-
-
-
-
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light"></h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-    </div>
-
-    <div class="container">
-        <div class="section">
-
-            <div class="row">
-                <div class="col s12 center">
-                    <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h4>About Classical Revolution - NJ </h4>
-                    <p class="left-align"><a href="http://www.classicalrevolution.org" target="_blank">Classical Revolution</a> is a global classical music movement founded by Charith Premawardhana in San Francisco, California in 2006, with its first session at San Francisco's Revolution Café. At Classical Revolution events, classical musicians and composers of all instruments are invited to join the core Classical Revolution players in performance, and are even encouraged bring music to read.</p>
-                    <p class="left-align">While attending the San Francisco Conservatory, violinist and educator James Keene was an active participant in the original San Francisco chapter of Classical Revolution, and in 2014, James founded the New Jersey chapter of Classical Revolution with a little strategic and technological help from polymath Nick West.</p>
-                    <p class="left-align">
-                      James organized the first Classical Revolution - NJ session at Pino's in Highland Park, NJ, and went on to bring the revolution to the legendary Ale &amp; Wich Tavern, the Court Tavern, and other cafés/pubs in New Jersey.
-                    </p>
-                    <p class="left-align">Classical Revolution - NJ is currently directed by violinist and educator Samantha Tomblin. If you are a musician who would like to take part in Classical Revolution, a proprietor who would like to invite the revolution to your establishment, if you are a composer who would like to have your work read at a Classical Revolution event, or if you are a fan, contact us using the contact form below, or email us at info(at)crnj.org.</p>
-                    <p class="left-align">Don't forget to also <a href="https://www.facebook.com/classicalrevolutionnj" target="_blank">Like Us on Facebook!</a></p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                </div>
-            </div>
-        </div>
-        <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-    </div>
-
-    <footer class="page-footer teal">
-        <div class="footer-copyright">
+    <footer class="page-footer rev-green" style="background-color: #4f5748;">
+        <div class="footer-copyright rev-green">
             <div class="container">
                 Made by <a class="blue-text text-lighten-3" href="https://nickwe.st">Nick West</a>
             </div>
         </div>
     </footer>
-
-
-    <!--  Scripts-->
 
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
